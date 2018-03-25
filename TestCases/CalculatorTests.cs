@@ -29,5 +29,13 @@ namespace TestCases
             var expected = 10;
             Assert.Equal(expected, actual);
         }
+        [Fact]
+        public void division_Test()
+        {
+            Calculatorr calculator = new Calculatorr();
+            var actual = calculator.division(10, 2);
+            var expected = 5;
+            Assert.Equal(expected, actual);
+        }
     }
 }
